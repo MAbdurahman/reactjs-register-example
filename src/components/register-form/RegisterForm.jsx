@@ -19,7 +19,6 @@ export default function RegisterForm() {
 	const classes = useStyles();
 	const name_pattern =
 		/^([a-zA-Z]{2,}\s[a-zA-z]{1,}'?-?[a-zA-Z]{1,}\s?([a-zA-Z]{1,})?)/i;
-	// const phone_pattern = /^\D?(\d{3})\D?\D?(\d{3})\D?(\d{4})$/i;
 	const phone_pattern =
 		/^[(]{0,1}[0-9]{3}[)]{0,1}[-\s.]{0,1}[0-9]{3}[-\s.]{0,1}[0-9]{4}$/i;
 	const email_pattern = /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i;

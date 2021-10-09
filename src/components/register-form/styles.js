@@ -3,7 +3,6 @@ import { makeStyles } from '@material-ui/core/styles';
 export default makeStyles(theme => ({
 	registerForm: {
 		marginTop: '10vh',
-		// textAlign: 'center',
 	},
 	registerForm__buttonContainer: {
 		display: 'flex',
@@ -14,9 +13,6 @@ export default makeStyles(theme => ({
 		marginTop: '1.25em',
 	},
 	registerForm__buttonStyle: {
-		// position: 'absolute',
-		// left: '0',
-		// top: '1.5em',
 		width: '92%',
 		margin: '1.5em auto',
 		marginBottom: '.5em',
@@ -44,7 +40,6 @@ export default makeStyles(theme => ({
 		display: 'block',
 		width: '100%',
 		height: '15px',
-		// margin: '-.5em auto',
 		marginTop: '-1em',
 		marginBottom: '.5em',
 		color: 'rgb(245, 41, 41)',
@@ -64,7 +59,6 @@ export default makeStyles(theme => ({
 	registerForm__link: {
 		fontSize: '.8rem',
 		textDecoration: 'none',
-		// textTransform: 'capitalize',
 		color: '#423E37',
 		transition: 'all .5s cubic-bezier(0.25, 0.45, 0.45, 0.95)',
 		'&:hover': {
@@ -101,6 +95,5 @@ export default makeStyles(theme => ({
 	},
 	registerForm__textFieldStyle: {
 		width: '80%',
-		// marginBottom: '1em',
 	},
 }));
