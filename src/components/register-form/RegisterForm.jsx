@@ -208,7 +208,7 @@ export default function RegisterForm() {
 									fullWidth
 									disabled={isSubmitting}
 								>
-									Submit
+								{isSubmitting ? 'Please wait...': 'Submit'}
 								</Button>
 							</Grid>
 						</Form>
