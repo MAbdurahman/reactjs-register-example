@@ -2,7 +2,9 @@ import { makeStyles } from '@material-ui/core/styles';
 
 export default makeStyles(theme => ({
 	registerForm: {
-		marginTop: '10vh',
+      width: '100%',
+		marginTop: '0',
+      marginBottom: '0'
 	},
 	registerForm__buttonContainer: {
 		display: 'flex',

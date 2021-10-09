@@ -26,20 +26,28 @@
 }
 
 html {
+  width: 100vw;
+  height: 100vh;
 	font-size: 83.375%;
 }
 
 body {
-	overflow-x: hidden;
-	width: 100vw;
+  width: 100vw;
 	height: 100vh;
 	margin: 0;
 	font-family: 'Montserrat', sans-serif;
 	letter-spacing: 1px;
+	background-color: #d1d5d9;
+	overflow-x: hidden;
+  overflow-y: auto;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-	background-color: #d1d5d9;
 	
+}
+main.app {
+  width: 100%;
+  padding-top: 5em;
+  display: flex;
 }
 
 #buttonStyle {
