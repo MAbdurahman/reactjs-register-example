@@ -1,9 +1,10 @@
 import React from 'react'
+import RegisterForm from './../components/register-form/RegisterForm'
 
 export default function App() {
   return (
-    <div>
-      <h2>This is App.js</h2>
-    </div>
+    <main>
+      <RegisterForm />
+    </main>
   )
 }
